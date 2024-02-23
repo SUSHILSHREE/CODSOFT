@@ -69,7 +69,7 @@ class ATM{
                     System.out.println("Current balance " + account.balance());
                     break;
                 case 4:
-                    System.out.println("Thanks for working with Jain Bank");
+                    System.out.println("Thanks for working with HDFC Bank");
                     break;
                 default:
                     System.out.println("Invalid entry!!. Enter only the given options");   
@@ -82,7 +82,7 @@ class ATM{
 public class task3{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        BankAccount userAccount = new BankAccount(30000);
+        BankAccount userAccount = new BankAccount(1000);
         ATM atm = new ATM(userAccount);
         System.out.println("Enter Your PIN");
         int pin = sc.nextInt();
